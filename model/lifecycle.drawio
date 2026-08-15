@@ -1,0 +1,110 @@
+<mxfile compressed="false" host="Electron">
+  <diagram id="5bc4829e-7d8c-4457-88ce-e82662e885e4" name="lifecycle">
+    <mxGraphModel dx="1911" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Transition" link="references/eClassifiers/Transition/index.html" id="2ca6e494-ee31-4d17-830f-d26b0806927e">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="440.00442014321635" y="259.99728640381113" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Lifecycle" link="references/eClassifiers/Lifecycle/index.html" id="030d47ca-3b2b-4f63-91df-aac3b430337c">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="440.000260412462" y="89.99736161114788" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="transitions" link="references/eClassifiers/Lifecycle/references/eStructuralFeatures/transitions/index.html" id="7ffc85e1-973f-40bc-b5ad-8ae73ffe31d8">
+          <mxCell edge="1" parent="1" source="030d47ca-3b2b-4f63-91df-aac3b430337c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="2ca6e494-ee31-4d17-830f-d26b0806927e">
+            <mxGeometry relative="1" x="0.7143" y="40" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Stage" link="references/eClassifiers/Stage/index.html" id="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="299.99938718518604" y="180.00438868864646" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="children" link="references/eClassifiers/Stage/references/eStructuralFeatures/children/index.html" id="050a7313-99df-4451-8084-ec2ed0be6bba">
+          <mxCell edge="1" parent="1" source="8fa57288-a10d-4bd5-b70d-e40d545fc576" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;innerLoopWaypoints=1;" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" x="-0.0215" y="10" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="440" y="202.53" />
+                <mxPoint x="440" y="230" />
+                <mxPoint x="390" y="230" />
+              </Array>
+              <mxPoint x="460" y="190" as="sourcePoint" />
+              <mxPoint x="440" y="270" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="stages" link="references/eClassifiers/Lifecycle/references/eStructuralFeatures/stages/index.html" id="17fe9298-cc62-4835-9580-d07fbc05d95e">
+          <mxCell edge="1" parent="1" source="030d47ca-3b2b-4f63-91df-aac3b430337c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" x="0.6598" y="-18" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="initial" link="references/eClassifiers/Lifecycle/references/eStructuralFeatures/initial/index.html" id="540e89e2-df38-49ce-b93a-1af9500883f2">
+          <mxCell edge="1" parent="1" source="030d47ca-3b2b-4f63-91df-aac3b430337c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" x="-0.52" y="15" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="from" link="references/eClassifiers/Transition/references/eStructuralFeatures/from/index.html" id="648d41fc-0f48-4bd7-8c30-a203ceb25f31">
+          <mxCell edge="1" parent="1" source="2ca6e494-ee31-4d17-830f-d26b0806927e" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" x="-0.1275" y="-8" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="to" link="references/eClassifiers/Transition/references/eStructuralFeatures/to/index.html" id="79b6453e-b536-4a81-8e7a-7b559ba45107">
+          <mxCell edge="1" parent="1" source="2ca6e494-ee31-4d17-830f-d26b0806927e" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" x="0.6713" y="10" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Staged" link="references/eClassifiers/Staged/index.html" id="02605471-b854-4476-ada9-9a2418668ecd">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="299.9995337214442" y="-29.996522033118936" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="current" link="references/eClassifiers/Staged/references/eStructuralFeatures/current/index.html" id="2051c30b-184b-4df2-85e2-b98f1b24d8be">
+          <mxCell edge="1" parent="1" source="02605471-b854-4476-ada9-9a2418668ecd" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" x="-0.1112" y="20" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="lifecycles" link="references/eClassifiers/Staged/references/eStructuralFeatures/lifecycles/index.html" id="c462b847-bdb1-47ac-ad83-9eb5284a4ac6">
+          <mxCell edge="1" parent="1" source="02605471-b854-4476-ada9-9a2418668ecd" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="030d47ca-3b2b-4f63-91df-aac3b430337c">
+            <mxGeometry relative="1" x="0.3922" y="30" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Sojourn" link="references/eClassifiers/Sojourn/index.html" id="48b04dc6-3392-4240-ac54-59bc746e721d">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="180.00231095207266" y="89.99804423699555" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="stage" link="references/eClassifiers/Sojourn/references/eStructuralFeatures/stage/index.html" id="a77f254a-d96d-4a47-9ba3-c22c945314b4">
+          <mxCell edge="1" parent="1" source="48b04dc6-3392-4240-ac54-59bc746e721d" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="8fa57288-a10d-4bd5-b70d-e40d545fc576">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="sojourns" link="references/eClassifiers/Staged/references/eStructuralFeatures/sojourns/index.html" id="a74d4e2f-bdfb-4b7f-8755-ee24812d2f1c">
+          <mxCell edge="1" parent="1" source="02605471-b854-4476-ada9-9a2418668ecd" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="48b04dc6-3392-4240-ac54-59bc746e721d">
+            <mxGeometry relative="1" x="0.2778" y="-25" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
